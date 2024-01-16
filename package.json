@@ -6,7 +6,7 @@
   "typings": "./index.d.ts",
     "scripts": {
             "start": "node ./app.js"
-          }
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pedroslopez/whatsapp-web.js.git"
