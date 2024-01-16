@@ -4,12 +4,9 @@
   "description": "Library for interacting with the WhatsApp Web API ",
   "main": "./app.js",
   "typings": "./index.d.ts",
-  "scripts": {
-    "test": "mocha tests --recursive --timeout 5000",
-    "test-single": "mocha",
-    "shell": "node --experimental-repl-await ./shell.js",
-    "generate-docs": "jsdoc --configure .jsdoc.json --verbose"
-  },
+    "scripts": {
+            "start": "node ./app.js"
+          }
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pedroslopez/whatsapp-web.js.git"
